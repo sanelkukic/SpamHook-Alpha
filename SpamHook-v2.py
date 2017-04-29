@@ -501,17 +501,6 @@ Credits:
 - Discord\n
 """)
     print("WARNING: Usage of this tool can get you reported by someone to Discord Staff, which could lead to your Discord account getting deleted. Use this with caution.\n")
-    print("Changelog:\n")
-    try:
-        theLog = urllib.request.urlretrieve("https://raw.githubusercontent.com/Hexexpeck/SpamHook/master/changelog.txt")
-    except Exception as retrievalError:
-        theProblem = "Error retrieving changelog: " + str(retrievalError)
-        print(theProblem)
-    else:
-        changelogList = []
-        for change in theLog:
-            changelogList.append(change)
-        print("\n".join(changelogList))
 
     if interactive_mode:
         wait_for_response()
