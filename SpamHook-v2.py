@@ -191,7 +191,7 @@ except:
     pass
 
 theVersion = "2.0-r1"
-intro = ("SpamHook v"+theVersion+" Private Beta\n"
+intro = ("SpamHook v"+theVersion+" Private Alpha\n"
          "Made by Hexexpeck#8781\n"
          "---------------------------------------")
 
