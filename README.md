@@ -12,6 +12,9 @@ yep
 ### Where do I report bugs?
 On the [SpamHook Alpha Issue Tracker](https://github.com/Hexexpeck/SpamHook-Alpha/issues)
 
+### How can I stay up to date on development progress?
+Using our [Dev Tracker](https://github.com/Hexexpeck/SpamHook-Alpha/projects/1)
+
 ### Building Windows executables
 Run the `build_exe.bat` script in this repo.
 Also get PyInstaller before you do. Google it for downloads.
