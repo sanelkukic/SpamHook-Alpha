@@ -191,8 +191,8 @@ except:
     pass
 
 theVersion = "2.0-r1"
-intro = ("SpamHook v"+theVersion+" Private Alpha\n"
-         "Made by Hexexpeck#8781\n"
+intro = ("SpamHook v"+theVersion+" Alpha\n"
+         "Made by xDrixxyz\n"
          "---------------------------------------")
 
 def spam_this_webhook():
@@ -346,7 +346,7 @@ def leave_spamhook():
 def open_gh():
     wipe_screen()
     print("Opening GitHub repository...")
-    webbrowser.open("https://github.com/Hexexpeck/SpamHook")
+    webbrowser.open("https://github.com/xDrixxyz/SpamHook-Alpha")
     if interactive_mode:
         wait_for_response()
         misc_menu()
@@ -473,7 +473,7 @@ def join_hexcord():
     wipe_screen()
     print("Loading...")
     try:
-        webbrowser.open("http://discord.hexexpeck.me")
+        webbrowser.open("https://xdrixxyz.nand.sh/gw?dest=discord")
     except Exception as hexcordException:
         print("Error: " + hexcordException)
     else:
@@ -490,13 +490,13 @@ def spamhook_info():
     print("SpamHook Information")
     print("--------------------")
     print("Version: " + theVersion + "\n")
-    print("Developer: Hexexpeck#8781\n")
-    print("GitHub: https://github.com/Hexexpeck/SpamHook\n")
+    print("Developer: xDrixxyz\n")
+    print("GitHub: https://github.com/xDrixxyz/SpamHook-Alpha\n")
     print("""
 Credits:
 
-- Hexexpeck: Program Development
-- Hexexpeck: Program Icon
+- xDrixxyz: Program Development
+- xDrixxyz: Program Icon
 - StackOverflow: every dev's go to place for coding questions
 - Discord\n
 """)
@@ -565,7 +565,7 @@ def misc_menu():
     print("<1> View SpamHook statistics")
     print("<2> Run Python version check")
     print("<3> View SpamHook GitHub repository")
-    print("<4> Join Hexexpeck's Discord server")
+    print("<4> Join xDrixxyz's Discord server")
     print("\n<0> Back to main menu\n")
     option = input(">>> ")
     if option == "1":
@@ -593,7 +593,7 @@ def main_menu():
 <2> View your SpamHook settings
 
 <3> File management (delete spamhook.json, wipe spamhook.json, cleanup SpamHook, etc)
-<4> Miscellaneous (view GitHub repository, join Hexexpeck's Discord, etc)
+<4> Miscellaneous (view GitHub repository, join xDrixxyz's Discord, etc)
 
 <5> Use legacy SpamHook (SpamHook v1.0)
 
