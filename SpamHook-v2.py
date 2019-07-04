@@ -171,7 +171,7 @@ def parse_cli_arguments():
     parser.add_argument("--legacy", "-l", action="store_true", help="Launch the legacy (v1) version of SpamHook.")
     parser.add_argument("--make-empty", "-empty", action="store_true", help="Make an empty spamhook.json file")
     parser.add_argument("--view-file", "-view", action="store_true", help="View your current SpamHook settings.")
-    parser.add_argument("--join-discord", "-discord", action="store_true", help="Join Hexexpeck's Discord server, Hexcord!")
+    parser.add_argument("--join-discord", "-discord", action="store_true", help="Join xDrixxyz's Discord server")
     parser.add_argument("--app-info", "-inf", action="store_true", help="Shows information about SpamHook.")
     parser.add_argument("--delete-settings", "-delset", action="store_true", help="Delete your app-settings.json file.")
     parser.add_argument("--cleanup", "-cl", action="store_true", help="Wipe and delete your app-settings.json and spamhook.json files.")
@@ -473,7 +473,7 @@ def join_hexcord():
     wipe_screen()
     print("Loading...")
     try:
-        webbrowser.open("https://xdrixxyz.nand.sh/gw?dest=discord")
+        webbrowser.open("https://xdrixxyz.eu.org/gw?dest=discord")
     except Exception as hexcordException:
         print("Error: " + hexcordException)
     else:
